@@ -1,0 +1,79 @@
+body,
+body * {
+    margin: 0;
+    padding: 0;
+    vertical-align: top;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+body{
+    width: 100%;
+    background-image: url('./img2.jpg');
+    background-position: center;
+    background-size: cover;
+    height: 109vh;
+    
+}
+ul{
+    display: flex;
+    gap: 5px;
+}
+
+li{
+    border: 1px solid gray;
+    list-style: none;
+    background-color: white;
+    margin-left: 3px;
+    border-radius: 5px;
+} 
+
+li:hover{
+    background-color: rgb(214, 230, 217);
+}
+.name{
+    font-size: 20px;
+}
+.price{
+    font-size: 20px;
+}
+.labels{
+    margin-left: 3px;
+}
+/* .form-group{
+     width: 400px; 
+    
+} */
+
+/* .labels{
+    display: flex;
+    flex-direction: row;
+    
+    /* width: 400px; */
+   
+
+
+ 
+
+#newOrderForm {
+    display: none;
+}
+
+#newOrderForm.show {
+    display: block;
+}
+
+.actions {
+    padding-top: 2rem;
+}
+
+.ordersList {
+    padding-top: 2rem;
+}
+
+#newOrderForm .totals {
+    font-size: 22px;
+    font-weight: 600;
+    text-align: right;
+    padding: 1rem 0;
+}
